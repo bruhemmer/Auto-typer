@@ -1,3 +1,6 @@
+Dim x
+x=1
+Do While x<>1
 Set wshshell = wscript.CreateObject("WScript.Shell") 
 wscript.sleep 100
 wshshell.sendkeys "H"
@@ -45,3 +48,4 @@ wscript.sleep 100
 wshshell.sendkeys "!"
 wscript.sleep 100
 wshshell.sendkeys "!"
+loop
